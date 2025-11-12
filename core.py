@@ -533,7 +533,7 @@ DB_SERVICE_NAME = os.getenv('DB_SERVICE_NAME')
 # --- FIX: Define the Instant Client Path ---
 # This environment variable MUST be set in your Streamlit Secrets or .env
 # to the absolute path of the Instant Client folder in the deployed environment.
-INSTANT_CLIENT_PATH = "./instantclient_23_9"
+INSTANT_CLIENT_PATH = "/app/instantclient_23_9"
 
 # Status value to exclude from the results (e.g., 'P' for Pending/Processing)
 STATUS_TO_EXCLUDE = 'P'

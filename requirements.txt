@@ -1,4 +1,5 @@
+python-dotenv
 streamlit
 oracledb
 pandas
-python-dotenv
+openpyxl
